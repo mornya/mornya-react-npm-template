@@ -1,0 +1,47 @@
+{
+  "name": "mornya-react-npm-template",
+  "version": "0.0.1",
+  "description": "The template of react component project to upload NPM registry",
+  "author": "mornya",
+  "keywords": [],
+  "homepage": "",
+  "repository": "",
+  "private": true,
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "react-scripts bundle",
+    "bundle": "react-scripts bundle",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clean": "rimraf build",
+    "lint": "eslint src --cache --ignore-pattern .gitignore --ext js,jsx --max-warnings 100",
+    "flow": "node_modules/.bin/flow check",
+    "flow:start": "node_modules/.bin/flow",
+    "flow:stop": "node_modules/.bin/flow stop"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "prop-types": "latest"
+  },
+  "devDependencies": {
+    "ajv": "^6.4.0",
+    "flow-bin": "^0.62.0",
+    "mornya-react-scripts": "^3.0.0-rc5",
+    "pre-commit": "^1.2.2"
+  }
+}

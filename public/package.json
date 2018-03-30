@@ -1,0 +1,21 @@
+{
+  "name": "my-component",
+  "version": "0.0.1",
+  "description": "My new React component",
+  "author": "",
+  "keywords": [],
+  "homepage": "",
+  "repository": "",
+  "private": false,
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "license": "MIT",
+  "main": "index.js"
+}
