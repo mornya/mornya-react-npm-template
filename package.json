@@ -33,15 +33,15 @@
     "lint"
   ],
   "dependencies": {
-    "classnames": "^2.2.5",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "prop-types": "latest"
+    "classnames": "^2.2.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
-    "ajv": "^6.4.0",
-    "flow-bin": "^0.62.0",
-    "mornya-react-scripts": "^3.0.0-rc5",
+    "ajv": "^6.5.2",
+    "flow-bin": "^0.76.0",
+    "mornya-react-scripts": "^3.0.0",
     "pre-commit": "^1.2.2"
   }
 }
